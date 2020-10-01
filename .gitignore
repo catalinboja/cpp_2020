@@ -12,6 +12,7 @@
 *.sln
 *.vcxproj
 *.vcxproj.filters
+*.pptx
 
 
 # User-specific files (MonoDevelop/Xamarin Studio)
