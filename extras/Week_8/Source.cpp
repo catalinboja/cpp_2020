@@ -37,4 +37,6 @@ int main() {
 	B b;
 	A a = b.createSomething();
 
+
+
 }
