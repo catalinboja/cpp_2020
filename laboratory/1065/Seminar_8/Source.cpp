@@ -13,7 +13,7 @@ private:
 	int noMonths = 0;
 	ProdType type = ProdType::NORMAL;
 public:
-	Product(const int Id, const string Name, const ProdType Type): id(Id) {
+	Product(int Id, string Name, ProdType Type): id(Id) {
 		this->name = Name;
 		this->type = Type;
 	}
@@ -38,7 +38,7 @@ public:
 			throw "We got null pointer";*/
 	}
 
-	Product(Product& p): id(p.id) {
+	Product(const Product& p): id(p.id) {
 		this->name = p.name;
 		this->setSales(p.salesVolume, p.noMonths);
 		this->type = p.type;
@@ -46,6 +46,51 @@ public:
 
 	string getName() {
 		return this->name;
+	}
+
+	//void operator=(Product p)
+	//void operator=(Product& p)
+	Product operator=(const Product& p) {
+
+		//check for self =
+		if (p.id == this->id)
+			return *this;
+
+		this->type = p.type;
+		this->name = p.name;
+		//this->id = p.id;
+		this->setSales(p.salesVolume, p.noMonths);
+		//return p;		//but the copy ctor needs const Product&
+		return *this;
+	}
+
+	Product operator+(int value) {
+		Product result = *this;
+		int* newSales = new int[result.noMonths + 1];
+		for (int i = 0; i < result.noMonths; i++) {
+			newSales[i] = result.salesVolume[i];
+		}
+		newSales[result.noMonths] = value;
+		result.setSales(newSales, result.noMonths + 1);
+		return result;
+	}
+
+	void operator+=(int value) {
+		//*this = *this + value;
+		int* newSales = new int[this->noMonths + 1];
+		for (int i = 0; i < this->noMonths; i++) {
+			newSales[i] = this->salesVolume[i];
+		}
+		newSales[this->noMonths] = value;
+		this->setSales(newSales, this->noMonths + 1);
+	}
+
+	explicit operator int() {
+		int total = 0;
+		for (int i = 0; i < this->noMonths; i++) {
+			total += this->salesVolume[i];
+		}
+		return total;
 	}
 
 	friend ostream& operator<<(ostream& console, Product& p);
@@ -107,6 +152,10 @@ void operator >>(istream& input, Product& p) {
 
 }
 
+Product operator+(int value, Product p) {
+	return p + value;
+}
+
 int main(int argc, char* argv[]) {
 	//Product p1;
 	Product p1(1, "Pepsi", ProdType::NORMAL);
@@ -116,8 +165,32 @@ int main(int argc, char* argv[]) {
 	cout << p2;
 	cout << p1 << p2;
 
-	cin >> p1;
-	cout << p1;
+	//cin >> p1;
+	//cout << p1;
 
-	char name[] = "John";
+	int sales[] = { 10,11,22 };
+	int no = 3;
+	p1.setSales(sales, no);
+
+	p2 = p1;			//operator=(p2, p1)			//mandatory by a class member function
+
+	Product p3 = p2;		//copy ctor
+
+	p3 = p2 = p1;
+	//p1 = p1;
+
+	//p1 = p1 + 10;
+
+	cout << p1;
+	cout << p3;
+
+	p2 = p1 + 10;
+	cout << p2;
+	p2 = 55 + p2;
+
+	p2 += 10;
+
+	int totalSales = (int)p2;			//operator int(p2)
+
+	//p2 * 100;
 }
