@@ -1,0 +1,61 @@
+
+1 | Gigel | Ionescu | CSIE
+Este olimpic : 0
+Este tip particular 13
+ Note:   9  9  10
+1 | Ana | Alexandrescu | CSIE
+Este olimpic : 1
+Este tip particular 13
+ Note:   9  9  10
+1 | Ioana | Ionescu | MK
+Este olimpic : 0
+Este tip particular 11
+ Note:   9  9  10
+1 | Gigel | Ionescu | CSIE
+Este olimpic : 0
+Este tip particular 13
+ Note:   9  9  10
+1 | Ana | Alexandrescu | CSIE
+Este olimpic : 1
+Este tip particular 13
+ Note:   9  9  10
+1 | Ioana | Ionescu | MK
+Este olimpic : 0
+Este tip particular 11
+ Note:   9  9  10
+1 | Gigel | Ionescu | CSIE
+Este olimpic : 0
+Este tip particular 13
+ Note:   9  9  10
+1 | Ana | Alexandrescu | CSIE
+Este olimpic : 1
+Este tip particular 13
+ Note:   9  9  10
+1 | Ioana | Ionescu | MK
+Este olimpic : 0
+Este tip particular 11
+ Note:   9  9  10
+1 | Gigel | Ionescu | CSIE
+Este olimpic : 0
+Este tip particular 13
+ Note:   9  9  10
+1 | Ana | Alexandrescu | CSIE
+Este olimpic : 1
+Este tip particular 13
+ Note:   9  9  10
+1 | Ioana | Ionescu | MK
+Este olimpic : 0
+Este tip particular 11
+ Note:   9  9  10
+1 | Gigel | Ionescu | CSIE
+Este olimpic : 0
+Este tip particular 13
+ Note:   9  9  10
+1 | Ana | Alexandrescu | CSIE
+Este olimpic : 1
+Este tip particular 13
+ Note:   9  9  10
+1 | Ioana | Ionescu | MK
+Este olimpic : 0
+Este tip particular 11
+ Note:   9  9  10
