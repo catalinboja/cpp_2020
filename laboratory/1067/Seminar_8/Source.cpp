@@ -159,4 +159,7 @@ int main() {
 	int totalSales = (int)p1;		//operator int(p1)
 	cout << endl << totalSales;
 	//p1 * 10;
+
+	//[]
+	//++ / --
 }
