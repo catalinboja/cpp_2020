@@ -1,0 +1,5 @@
+
+The list of all students:
+The number of students is 5
+John, age 23, Bachelor CSIE
+Alice, age 23, Bachelor CSIE
