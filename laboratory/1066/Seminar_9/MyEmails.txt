@@ -1,0 +1,14 @@
+This is my inbox content
+
+ ------************************************8--------------- 
+The inbox for me@ase.ro
+Emails: 
+
+Subject: Zoom link
+From: john@stud.ase.ro
+Content: Here is the seminar link
+
+
+Subject: Assignment link
+From: alice@stud.ase.ro
+Content: Here is the assignment link

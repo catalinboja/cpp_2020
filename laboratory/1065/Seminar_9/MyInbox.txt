@@ -1,0 +1,17 @@
+My emails print
+
+------------------------------
+Inbox for me@ase.ro
+Emails: 
+*----------------------------------*
+Email from john@stud.ase.ro with priority 1
+Subject: Zoom link
+Content: Here is the zoom link
+*----------------------------------*
+Email from john@stud.ase.ro with priority 1
+Subject: Project files link
+Content: Here is my part for project
+*----------------------------------*
+Email from alice@stud.ase.ro with priority 1
+Subject: Project files
+Content: Here are my files
