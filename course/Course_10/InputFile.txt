@@ -1,0 +1,23 @@
+John
+21
+CSIE
+Bucharest, Calea Dorobanti
+3
+OOP
+9
+C#
+10
+Java
+10
+Alice
+20
+MAN
+Bucharest
+2
+Finance
+10
+Accounting 
+9
+
+
+ 

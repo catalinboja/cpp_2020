@@ -1,0 +1,17 @@
+
+**************Inbox for account me@ase.ro
+Emails: 
+-----------------------
+From: john@stud.ase.ro
+Subject: Zoom link
+Content: Here is the lab zoom link
+
+-----------------------
+From: john@stud.ase.ro
+Subject: Zoom link
+Content: Here is the lab zoom link
+
+-----------------------
+From: alice@stud.ase.ro
+Subject: Project class
+Content: Here is the class

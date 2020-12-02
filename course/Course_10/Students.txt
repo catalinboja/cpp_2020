@@ -1,0 +1,9 @@
+
+ Name John
+ Age 21
+
+ Faculty Bucharest( CSIE )
+ Grades: 
+ Grade for OOP is 9
+ Grade for C# is 10
+ Grade for Java is 10
