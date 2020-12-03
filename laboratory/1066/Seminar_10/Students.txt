@@ -1,0 +1,35 @@
+4
+John John
+20
+1066
+CSIE
+Bucharest
+3
+10
+OPP
+9
+Java Programming
+10
+Accouting
+Alice
+19
+1001
+MAN
+Mihai Eminescu Street
+1
+10
+Finance
+Bob
+20
+1067
+CSIE
+Bucharest
+0
+Vader
+20
+1066
+CSIE
+Bucharest
+1
+10
+OOP

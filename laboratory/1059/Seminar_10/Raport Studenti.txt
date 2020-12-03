@@ -1,0 +1,14 @@
+Lista studenti CSIE
+
+--------------------------------------
+Nume 
+Varsta 0
+1000 | CSIE - Calea Dorobanti
+Note: 
+--------------------------------------
+Nume Gigel
+Varsta 20
+1059 | CSIE - Calea Dorobanti 15-17
+Note: 
+Nota la disciplina POO este 9
+Nota la disciplina Tehnologii Web este 10

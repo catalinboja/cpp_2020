@@ -1,0 +1,22 @@
+3
+John
+1065
+2
+9
+Java Programming
+10
+Web Tech
+CSIE
+Calea Dorobanti
+Bob
+1067
+1
+8
+Economics
+MAN
+Mihai Eminescu Street
+Vader
+1099
+0
+CSIE
+Calea Dorobanti
