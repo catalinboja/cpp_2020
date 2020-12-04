@@ -1,0 +1,33 @@
+4
+John John
+20
+1001
+CSIE
+Bucharest
+2
+9
+OOP in C++
+10
+Accounting
+Alice
+19
+1067
+CSIE
+Bucharest
+1
+10
+OOP in C++
+Bob
+20
+1099
+MAN
+Bucharest
+0
+Vader
+20
+1067
+CSIE
+Bucharest
+1
+8
+Java
