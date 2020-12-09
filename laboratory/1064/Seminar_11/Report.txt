@@ -1,0 +1,21 @@
+
+--------------------------------
+Student name Joe Doe
+Student age 18
+ Group number 1001 from CSIE
+Secretary office contact csie@ase.ro
+Student grades: 
+--------------------------------
+Student name Alice
+Student age 20
+ Group number 1064 from CSIE
+Secretary office contact csie@ase.ro
+Student grades: 
+Grade 10 for  OOP
+Grade 9 for  Algebra
+--------------------------------
+Student name John
+Student age 20
+ Group number 1064 from CSIE
+Secretary office contact csie@ase.ro
+Student grades: 

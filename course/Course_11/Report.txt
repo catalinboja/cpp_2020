@@ -1,0 +1,6 @@
+
+------------------
+Name: John
+Age: 20
+Faculty: CSIE
+Email: john@stud.ase.ro
